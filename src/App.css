@@ -30,6 +30,8 @@ a {
 @media screen and (max-width: 767px) {
   body {
     padding: 1rem;
+    /* display: flex; */
+    /* justify-content: center; */
   }
   .title__text {
     display: none;

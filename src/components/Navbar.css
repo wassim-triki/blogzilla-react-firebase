@@ -6,6 +6,8 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1rem;
+  margin: auto;
+  width: min(40rem, 90%);
 }
 
 .title {
@@ -47,4 +49,10 @@
   border-radius: 50px;
   width: 40px;
   height: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar {
+    /* width: 50%; */
+  }
 }

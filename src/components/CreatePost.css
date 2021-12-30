@@ -11,11 +11,13 @@
   text-align: center;
 }
 .create-post__form {
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   gap: 0.5rem;
+  width: min(40rem, 90%);
 }
 
 .create-post__title,
@@ -23,4 +25,5 @@
   padding: 1rem;
   border: none;
   border-radius: var(--border-radius);
+  resize: none;
 }

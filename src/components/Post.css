@@ -1,5 +1,5 @@
 .post {
-  width: 90%;
+  width: min(40rem, 90%);
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -38,6 +38,7 @@
   font-size: 1.2rem;
   overflow-y: scroll;
   word-break: break-all;
+  width: 100%;
 }
 .post > time {
   margin-top: 1rem;
