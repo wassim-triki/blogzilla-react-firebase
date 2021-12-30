@@ -29,6 +29,7 @@ const CreatePost = () => {
         img: user.img,
         authorName: user?.username,
         uid: user?.uid,
+        email: user?.email,
       },
     });
     navigate("/");
