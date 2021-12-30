@@ -37,6 +37,7 @@
 .post__text {
   font-size: 1.2rem;
   overflow-y: scroll;
+  word-break: break-all;
 }
 .post > time {
   margin-top: 1rem;
