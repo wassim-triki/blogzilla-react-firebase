@@ -1,0 +1,26 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page-header {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1rem 0;
+  text-align: center;
+}
+.create-post__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.create-post__title,
+.create-post__text {
+  padding: 1rem;
+  border: none;
+  border-radius: var(--border-radius);
+}
